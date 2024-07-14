@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const EntregaController = require("../controllers/EntregaController.jsx");
+const EntregaController = require("../controllers/EntregaController.js");
 
 router.get("/", EntregaController.getAllEntregas);
 router.get("/arquivadas", EntregaController.getEntregasArquivadas);

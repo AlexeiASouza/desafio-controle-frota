@@ -19,10 +19,10 @@ mongoose.connect(
   }
 );
 
-const caminhaoRoutes = require("./routes/caminhao.jsx");
-const entregaRoutes = require("./routes/entrega.jsx");
-const frotaRoutes = require("./routes/frota.jsx");
-const CleanDatabaseController = require("./controllers/CleanDatabaseController.jsx");
+const caminhaoRoutes = require("./routes/caminhao.js");
+const entregaRoutes = require("./routes/entrega.js");
+const frotaRoutes = require("./routes/frota.js");
+const CleanDatabaseController = require("./controllers/CleanDatabaseController.js");
 
 app.use("/caminhoes", caminhaoRoutes);
 app.use("/entregas", entregaRoutes);

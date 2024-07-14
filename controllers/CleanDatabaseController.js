@@ -1,6 +1,6 @@
-const Entrega = require("../models/Entrega.jsx");
-const EntregaArquivada = require("../models/EntregaArquivada.jsx");
-const Caminhao = require("../models/Caminhao.jsx");
+const Entrega = require("../models/Entrega.js");
+const EntregaArquivada = require("../models/EntregaArquivada.js");
+const Caminhao = require("../models/Caminhao.js");
 
 // Limpa TODOS os dados do Banco!
 exports.cleanDatabase = async (req, res) => {

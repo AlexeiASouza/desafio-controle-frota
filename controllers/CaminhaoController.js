@@ -1,4 +1,4 @@
-const Caminhao = require("../models/Caminhao.jsx");
+const Caminhao = require("../models/Caminhao.js");
 
 // Obtém todos os caminhões
 exports.getAllCaminhoes = async (req, res) => {

@@ -1,6 +1,6 @@
-const Entrega = require("../models/Entrega.jsx");
-const EntregaArquivada = require("../models/EntregaArquivada.jsx");
-const Caminhao = require("../models/Caminhao.jsx");
+const Entrega = require("../models/Entrega.js");
+const EntregaArquivada = require("../models/EntregaArquivada.js");
+const Caminhao = require("../models/Caminhao.js");
 
 // Obtém todas as entregas
 exports.getAllEntregas = async (req, res) => {

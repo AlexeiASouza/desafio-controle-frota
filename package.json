@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.jsx",
+  "main": "app.js",
   "scripts": {
-    "start": "node app.jsx",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon ./app.jsx"
+    "server": "nodemon ./app.js"
   },
   "keywords": [],
   "author": "",

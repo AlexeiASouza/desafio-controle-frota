@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const CaminhaoController = require("../controllers/CaminhaoController.jsx");
+const CaminhaoController = require("../controllers/CaminhaoController.js");
 
 router.get("/", CaminhaoController.getAllCaminhoes);
 router.get("/frota/:frota", CaminhaoController.getCaminhoesByFrota);

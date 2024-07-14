@@ -1,6 +1,6 @@
-const Caminhao = require("../models/Caminhao.jsx");
-const Entrega = require("../models/Entrega.jsx");
-const EntregaArquivada = require("../models/EntregaArquivada.jsx");
+const Caminhao = require("../models/Caminhao.js");
+const Entrega = require("../models/Entrega.js");
+const EntregaArquivada = require("../models/EntregaArquivada.js");
 
 // Obtém os dados para uma determinada frota de caminhões
 exports.getFrotaList = async (req, res) => {
